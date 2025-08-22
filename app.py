@@ -38,6 +38,7 @@ with st.container():
             """,
             unsafe_allow_html=True
         )
+info_area=st.empty()
 download_area=st.container()
 mcol1,mcol2=st.columns([1,1])
 # Sidebar controls
@@ -102,7 +103,7 @@ if uploaded_files:
                 with col2:
                     st.image(positive_img, caption="Positive (Enhanced)", use_container_width=True)
 else:
-    st.info("Please upload one or more negative images using the sidebar to begin.")
+    info_area.info("Please upload one or more negative images to begin.")
 
 st.markdown(
     """

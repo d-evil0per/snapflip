@@ -60,7 +60,7 @@ SnapFlip is a streamlined web app for converting photographic negatives into viv
 ## Screenshots
 
 <!-- Add screenshots here if available -->
-![SnapFlip Main Screen](screenshots\main.png)
+![SnapFlip Main Screen](screenshots/main.png)
 ![Negative to Positive Comparison](screenshots/comparison.png)
 
 ---
